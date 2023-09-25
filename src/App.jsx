@@ -11,6 +11,7 @@ import {
 } from "@chatscope/chat-ui-kit-react";
 
 const API_KEY = import.meta.env.VITE_SOME_KEY;
+console.log(import.meta.env.VITE_SOME_KEY)
 
 const App = () => {
   const [messages, setMessages] = useState([
